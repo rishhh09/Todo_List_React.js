@@ -79,7 +79,7 @@ function App() {
         <div className="mb-2 mt-4">
           <h2 className='font-bold text-center'>Add a Todo</h2>
           <div className="add-input flex gap-4 justify-center">
-            <input onChange={handleChange} value={todo} type="text" className='w-1/2 rounded-sm' />
+            <input onChange={handleChange} value={todo} type="text" className='w-1/2 rounded-sm p-2' />
             <button onClick={handleAdd} className='bg-violet-500 hover:bg-violet-700 py-1 px-2 rounded-lg text-sm font-bold'>Save</button>
           </div>
         </div>
